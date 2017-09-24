@@ -48,6 +48,11 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        //toolbar.setNavigationIcon(R.drawable.ic_toolbar);
+        toolbar.setTitle("Dharamshala");
+        toolbar.setSubtitle("");
+
        /* FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
